@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-blue-900 via-indigo-700 to-purple-800 min-h-screen;
+  font-family: 'Segoe UI', sans-serif;
+}
